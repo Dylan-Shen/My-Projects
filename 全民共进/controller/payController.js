@@ -1,0 +1,52 @@
+
+app.controller('payController',['$scope',function($scope){
+    $scope.showActive1=0;
+    $scope.showActive2=0;
+	$scope.myfun1=function(index){
+		$scope.showActive1=index;
+	}
+	$scope.myfun2=function(index){
+		$scope.showActive2=index;
+	}
+	$scope.arr1=[
+            {name:1,
+      	img:"img/pay-img3.png"},
+      	{name:2,
+      	img:"img/pay-img4.png"},
+      	{name:3,
+      	img:"img/pay-img3.png"},
+      	{name:4,
+      	img:"img/pay-img4.png"},
+      	{name:5,
+      	img:"img/pay-img3.png"},
+      	{name:6,
+      	img:"img/pay-img4.png"},
+      	{name:7,
+      	img:"img/pay-img3.png"},
+      	{name:8,
+      	img:"img/pay-img4.png"},
+      	{name:9,
+      	img:"img/pay-img3.png"},
+      	{name:10,
+      	img:"img/pay-img4.png"},
+      	{name:11,
+      	img:"img/pay-img3.png"},
+      	{name:12,
+      	img:"img/pay-img4.png"},
+      	{name:13,
+      	img:"img/pay-img3.png"},
+      	{name:14,
+      	img:"img/pay-img4.png"},
+      	{name:15,
+      	img:"img/pay-img3.png"},
+      	{name:16,
+      	img:"img/pay-img4.png"},
+      	{name:17,
+      	img:"img/pay-img3.png"},
+      	{name:18,
+      	img:"img/pay-img4.png"},
+      	{name:19,
+      	img:"img/pay-img3.png"},
+
+	]
+}])

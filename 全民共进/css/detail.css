@@ -1,0 +1,170 @@
+.content1 {
+  background-color: #f7fafa;
+  padding: 60px 70px 0px 80px;
+}
+.content1 h4,
+.content1 h6 {
+  color: black;
+  font-weight: bold;
+}
+.content1 .content1-a {
+  margin-top: 50px;
+}
+.content1 .content1-a .img {
+  width: 760px;
+  float: left;
+}
+.content1 .content1-a .img .img1 {
+  width: 760px;
+}
+.content1 .content1-a .img .p1 {
+  margin: 35px 0;
+}
+.content1 .content1-a .img .p1 span {
+  margin-right: 20px;
+}
+.content1 .content1-a .img .p2 {
+  color: #150b09;
+  font-size: 16px;
+  font-weight: bold;
+}
+.content1 .content1-a .text {
+  float: left;
+  margin-left: 60px;
+  padding-top: 50px;
+  width: 350px;
+}
+.content1 .content1-a .text .bottom {
+  padding: 70px 50px 50px;
+  margin-top: 75px;
+  border-top: 1px solid #d9d9de;
+}
+.content1 .content1-a .text .bottom .left {
+  float: left;
+}
+.content1 .content1-a .text .bottom .left .myp1 {
+  margin-top: 20px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.content1 .content1-a .text .bottom .left .myp2 {
+  color: #00a0ff;
+  font-weight: bold;
+}
+.content1 .content1-a .text .bottom .right {
+  float: right;
+}
+.content1 .content1-a .text .p1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0;
+}
+.content1 .content1-a .text .p2 {
+  color: black;
+}
+.content1 .content1-a .text .mytext {
+  margin: 50px 0;
+}
+.content1 .content1-a .text .mytext .a1 {
+  color: #fff;
+  width: 194px;
+  background-color: #ff4200;
+  height: 50px;
+  padding: 0;
+  line-height: 50px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.nav {
+  line-height: 88px;
+  height: 88px;
+  border-top: 1px solid #d9d9de;
+  border-bottom: 1px solid #d9d9de;
+  padding: 0 60px 0 80px;
+}
+.nav .navActive {
+  border-bottom: 3px solid #ff4200;
+}
+.nav a {
+  margin-right: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  height: 88px;
+  padding: 0 5px;
+}
+.content2 {
+  padding: 50px 60px 80px 80px;
+}
+.content2 .left {
+  float: left;
+  width: 760px;
+}
+.content2 .left img {
+  width: 760px;
+}
+.content2 .right {
+  float: left;
+  margin-left: 60px;
+  width: 350px;
+}
+.content2 .right .right-1 {
+  padding: 0 20px 20px 20px;
+  background-color: #f7fafa;
+  border: 1px solid #d9d9de;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.content2 .right .right-1 h5 {
+  font-weight: bold;
+  color: black;
+  margin: 0 -20px;
+  padding-left: 20px;
+  height: 55px;
+  line-height: 55px;
+  border-bottom: 1px solid #d9d9de;
+}
+.content2 .right .right-1 h5 small {
+  margin-left: 120px;
+}
+.content2 .right .right-1 h5 small span {
+  color: #ff4200;
+}
+.content2 .right .right-1 .text .p1 {
+  margin: 50px 0;
+  font-weight: bold;
+  color: black;
+}
+.content2 .right .right-1 .text .p2 {
+  font-size: 12px;
+  color: #150b09;
+}
+.content2 .right .right-1 .text .p3 {
+  margin: 30px 0;
+  font-weight: bold;
+  color: black;
+}
+.content2 .right .right-1 .text a {
+  color: #fff;
+  width: 194px;
+  background-color: #ff4200;
+  height: 50px;
+  padding: 0;
+  line-height: 50px;
+  font-weight: bold;
+  border-radius: 7px;
+  font-size: 16px;
+}
+.content2 .right .right-1-bottom {
+  background-color: #ffffc9;
+}
+.content2 .right .right-1-bottom .p2 {
+  margin: 30px 0;
+  line-height: 30px;
+}
+.content2 .right .right-1-bottom .p2 span {
+  color: #ff4200;
+  font-weight: bold;
+}

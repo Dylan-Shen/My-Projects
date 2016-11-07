@@ -1,0 +1,53 @@
+
+<div class="list-nav">
+	<div class="list-1">
+		<a href="" ng-repeat='x in arr1' ng-click="myfun1($index)" ng-class="{showActive:showIndex1==$index}">{{x}}</a>
+	</div>
+	<div class="list-2">
+		<a href="" ng-repeat="x in arr2" ng-click="myfun2($index)" ng-class="{showActive:showIndex2==$index}">{{x}}</a>
+	</div>
+	<div class="list-3">
+		<a href="" ng-repeat='x in arr3' ng-click="myfun3($index)" ng-class="{showActive:showIndex3==$index}">{{x}}</a>
+	</div>
+</div>
+
+<div class="list-content clear" ng-repeat="x in list">
+	<div class="content2-1" ng-repeat="lis in list">
+		<div class="content2-a">
+			<img class="myimg" ng-src="{{lis.img}}" alt="">
+			<div class="text">
+				<p class="text1">{{lis.name}}</p>
+				<p class="text2">{{lis.by}}</p>
+				<p class="text3">{{lis.detail}}</p>
+				<p class="text4">
+				<span class="span1"><img src="img/page1-icon-1.png" alt=""> {{lis.type}}</span>
+			
+				</p>
+				<div class="progress text5">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="48" aria-valuemin="0" aria-valuemax="100" style="width: {{lis.progress}};">
+                  </div>
+                </div>
+
+				<ul class="clear">
+					<li>
+						<p class="p1">{{lis.progress}}</p>
+						<p class="p2">进度</p>
+					</li>
+					<li>
+						<p class="p1">￥{{lis.money}}</p>
+						<p class="p2">支持金额</p>
+					</li>
+			
+					<li>
+						<p class="p1">{{day}}</p>
+						<p class="p2">剩余天数</p>
+					</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+</div>
+
+<div class="bottom">
+	<a href="" ng-repeat="x in arr4" ng-click="myfun4($index)" ng-class="{showActive:showIndex4==$index}">{{x}}</a>
+</div>

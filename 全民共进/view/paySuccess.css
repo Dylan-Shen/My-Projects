@@ -1,0 +1,39 @@
+.success-content {
+  padding: 80px 100px;
+}
+.success-content h4 {
+  font-weight: bold;
+  float: left;
+  font-size: 18px;
+  margin-top: -10px;
+}
+.success-content .head-right {
+  float: right;
+}
+.success-content .text {
+  margin-top: 50px;
+  border: 1px solid #dbdbe0;
+  background-color: #f7fafa;
+  border-radius: 5px;
+  padding: 60px 220px 60px 85px;
+}
+.success-content .text .p1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+.success-content .text .p2 {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 50px;
+}
+.success-content .text .p3 .btn {
+  background-color: #58c7e7;
+  color: #fff;
+  font-weight: bold;
+}
+.success-content .text .p3 a {
+  font-size: 12px;
+  margin-right: 50px;
+}

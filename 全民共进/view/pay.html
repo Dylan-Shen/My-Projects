@@ -1,0 +1,31 @@
+
+<div class="pay-content">
+	<div class="header clear">
+		<h4>犹太人在上海音乐剧</h4>
+		<div class="head-right">
+			<img src="img/pay-img1.png" alt="">
+		</div>
+	</div>
+
+	<p class="paytel">订单号：4496480277289 &nbsp;&nbsp;&nbsp;&nbsp;请您在<span>24小时</span>付清款项，否则订单会被自动取消。</p>
+
+	<div class="payway clear">
+		<span ng-click="myfun1(0)" ng-class="{active1:showActive1==0}">快捷支付</span>
+		<span ng-click="myfun1(1)" ng-class="{active1:showActive1==1}">网银支付</span>
+		<p>应付款<span>￥5元</span></p>
+	</div>
+    <div class="bank">
+    	<p class="choose">请选择银行：</p>
+
+    	<ul class="clear bank-ul">
+    		<li ng-repeat="x in arr1">
+    			<span ng-click="myfun2($index)" ng-class="{active2:showActive2==$index}"></span>
+    			<img ng-src="{{x.img}}" ng-click="myfun2($index)" alt="">
+    		</li>
+
+    	</ul>
+    </div>
+
+    <a ui-sref="paySuccess" class="btn btn-default">确认支付</a>
+	
+</div>

@@ -1,0 +1,31 @@
+<div class="set-content">
+<form name="myForm">
+	<div class="set-nav">
+		<a ui-sref="{{x.view}}" ng-repeat="x in arr1" ng-click="myfun($index)" ng-class="{active:showActive==$index}">{{x.name}}</a>
+		
+	</div>
+	<div class="set-main" ui-view>
+		<p class="p1">
+		  <span class="span1">当前密码</span>
+		  <input type="text">
+		</p>
+		<p class="p2">
+		  <span class="span1">新密码</span>
+		  <input type="text">
+		  <span class="span2">(密码不小于6位)</span>
+		</p>
+		<p class="p3"><span class="span1">已绑定手机</span>
+		   <span class="span2">136****0800</span>
+		</p>
+		<div class="p4"><span class="span1">验证码</span>
+		<input type="text" placeholder="输入验证码" name="password"
+		ng-model="password" ng-minlength="4">
+		<a href="" class="btn btn-default">免费获取验证码</a>
+		<div class="mydiv clear">
+			<p class="error" ng-show="myForm.password.$error.minlength">验证码错误，请重新输入！</p>
+		</div>
+		</div>
+		<p class="p5"><a href="" class="btn btn-default">保存</a></p>
+	</div>
+	</form>
+</div>

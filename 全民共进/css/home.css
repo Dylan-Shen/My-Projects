@@ -1,0 +1,219 @@
+.banner-box {
+  position: relative;
+}
+.banner-box .banner-icon {
+  bottom: 100px;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+.banner-box button {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+}
+.banner-box .prev {
+  position: absolute;
+  left: 40px;
+  top: 300px;
+  width: 22px;
+  height: 57px;
+  z-index: 10;
+}
+.banner-box .next {
+  position: absolute;
+  right: 40px;
+  top: 300px;
+  width: 22px;
+  height: 57px;
+  z-index: 10;
+}
+.banner-box span {
+  display: inline-block;
+  height: 10px;
+  width: 50px;
+  background-color: #fff ;
+  border-radius: 5px;
+}
+.banner-box .active {
+  background-color: #0098df;
+}
+.banner {
+  position: relative;
+}
+.banner .banner-img {
+  width: 100%;
+  height: 670px;
+}
+.banner .banner-text {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+}
+.banner .banner-text p {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+.banner .banner-text p:nth-child(1) {
+  font-size: 38px;
+}
+.banner .mybtn-1 {
+  background-color: #ff4200;
+  border: 0;
+  color: #fff;
+}
+.homecontent {
+  padding-top: 0;
+}
+.homecontent h4 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  line-height: 30px;
+  height: 30px;
+}
+.homecontent small {
+  float: right;
+}
+.homecontent .content1-main {
+  background-color: #f7fafa;
+}
+.homecontent .content1 .content1-left {
+  padding: 0 50px 0 20px;
+  border-right: 1px solid #dadada;
+}
+.homecontent .content1 .content1-left .img {
+  float: left;
+  padding-left: 0;
+}
+.homecontent .content1 .content1-left .test {
+  float: right;
+}
+.homecontent .content1 .content1-left .text1 {
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+.homecontent .content1 .content1-left .text2,
+.homecontent .content1 .content1-left .text3 {
+  font-size: 12px;
+}
+.homecontent .content1 .content1-left .text2 {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.homecontent .content1 .content1-left .text4 {
+  margin-top: 40px;
+}
+.homecontent .content1 .content1-left .text4 .span2 {
+  margin-left: 40px;
+  vertical-align: bottom;
+  line-height: 20px;
+}
+.homecontent .content1 .content1-left .text5 {
+  height: 10px;
+  margin-bottom: 10px;
+}
+.homecontent .content1 .content1-left .text5 div {
+  background-color: #ff4200;
+  border-radius: 5px;
+}
+.homecontent .content1 .content1-left li {
+  float: left;
+  margin-right: 20px;
+}
+.homecontent .content1 .content1-left .p1 {
+  color: #150b09;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.homecontent .content1 .content1-right {
+  padding: 0;
+}
+.homecontent .content1 .content1-right li {
+  padding: 5px 0;
+  padding-left: 20px;
+  font-size: 12px;
+  margin-top: 7px;
+}
+.homecontent .content1 .content1-right .li5 {
+  color: #ff4200;
+  border-left: 2px solid #ff4200;
+}
+.homecontent .content2 {
+  padding: 0 80px;
+}
+.homecontent .homelist-content {
+  margin: 45px 0;
+}
+.homecontent .homelist-content .myimg {
+  width: 320px;
+  height: 236px;
+}
+.homecontent .homelist-content .content2-1 {
+  padding-left: 0;
+  float: left;
+  margin-left: 110px;
+}
+.homecontent .homelist-content .content2-1:first-child {
+  margin-left: 0;
+}
+.homecontent .homelist-content .content2-1 .content2-a {
+  width: 322px;
+  border: 1px solid #dddde2;
+  border-radius: 5px;
+}
+.homecontent .homelist-content .content2-1 .content2-a .text {
+  padding: 20px 10px 0;
+}
+.homecontent .homelist-content .content2-1 .text1 {
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+.homecontent .homelist-content .content2-1 .text2,
+.homecontent .homelist-content .content2-1 .text3 {
+  font-size: 12px;
+}
+.homecontent .homelist-content .content2-1 .text2 {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.homecontent .homelist-content .content2-1 .text4 {
+  margin-top: 20px;
+}
+.homecontent .homelist-content .content2-1 .text4 .span2 {
+  margin-left: 40px;
+  vertical-align: bottom;
+  line-height: 20px;
+}
+.homecontent .homelist-content .content2-1 .text5 {
+  height: 6px;
+  margin-bottom: 10px;
+}
+.homecontent .homelist-content .content2-1 .text5 div {
+  background-color: #ff4200;
+  border-radius: 5px;
+}
+.homecontent .homelist-content .content2-1 li {
+  float: left;
+  margin-right: 20px;
+}
+.homecontent .homelist-content .content2-1 .p1 {
+  color: #150b09;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.homecontent .homelist-content .content2-1 .p2 {
+  font-size: 11px;
+}
+.homecontent .content3 {
+  padding: 60px 85px;
+  border: 1px solid #dddde2;
+}
+.homecontent .content3 .imgad {
+  margin-left: 52px;
+}

@@ -1,0 +1,50 @@
+<div class="content">
+  <div class="box">
+   <div class="box-top">
+	<h3>注册</h3>
+	<form novalidate name="myForm">
+		<div class="input1">
+			<input type="text" name="username" ng-model="username" placeholder="请输入您的手机号码" ng-pattern="/^(1[^012][0-9]{9})$/" required>
+			<div class="mydiv">
+			<p class="error" ng-show="myForm.username.$error.pattern">您输入的号码有误，请检查！</p>
+			</div>
+		</div>
+         <div class="input3">
+         	<input class="input3-1" type="text" name="import" placeholder="输入验证码" ng-model="import" ng-pattern="/^(1[^012][0-9]{9})$/" required>
+         	<a href="#" title="" class="btn btn-default">已发送,<span>{{count}}</span>秒后重发</a>
+         	<div class="mydiv">
+         		<p class="error" ng-show="myForm.import.$error.pattern">验证码错误，请重新输入！</p>
+         	</div>
+         </div>
+		<div class="input2">
+			<input type="password" name="password" placeholder="请输入您的密码" ng-model="password" ng-minlength="6">
+			<div class="mydiv clear">
+			<p class="error" ng-show="myForm.password.$error.minlength">密码错误，请重新输入！</p>
+			<a href="#" class="mytext">忘记密码？</a>
+		    </div>
+		    <a href="#" title="" class="btn btn-success">注册</a>
+		    <div class="checked">
+		        <span class="span1"></span>
+		    	<span>记住我</span>
+		    </div>
+		    <div class="box1">
+		    	<span class="line"></span>
+		    	<span>第三方登录</span>
+		    	<span class="line"></span>
+		    	<div class="box1-1">
+		    		<a href="#" title=""><img src="img/微信.png" alt=""></a>
+		    		<a class="qq" href="#" title=""><img src="img/login-img2.png" alt=""></a>
+		    		<a href="#" title=""><img src="img/login-img3.png" alt=""></a>
+		    	</div>
+		    </div>
+
+		  </div>
+            
+		    <div class="box-bottom">
+		    	已有账户？<a ui-sref="login">登录</a>
+		    </div>
+
+		</div>
+	</form>
+  </div>
+</div>
