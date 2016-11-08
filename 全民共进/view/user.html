@@ -1,0 +1,39 @@
+
+<div class="user-header clear">
+	<div class="left">
+		<div class="img">
+			<img src="img/user-img1.png" alt="">
+		</div>
+		<div class="icon">
+			<img src="img/user-icon1.png" alt="">
+			<img src="img/user-icon2.png" alt="">
+			<img src="img/user-icon3.png" alt="">
+		</div>
+	</div>
+
+	<div class="right">
+		<p class="user"><span>用户HZ17363525</span>下午好！</p>
+		<div class="soft clear">
+		<p>账户安全等级：</p>
+		<div class="mydiv">
+			<div class="gray"></div>
+			<div class="orange"></div>
+		</div>
+		<p>中</p>
+		</div>
+		<p>上次登录时间：2015-09-15 18：29：49</p>
+	</div>
+</div>
+
+<div class="user-content">
+	<div class="left">
+		<a ui-sref="{{x.view}}" ng-repeat='x in arr1' ui-sref-active="active">{{x.name}}</a>
+
+	</div>
+
+	<div class="right">
+	<div class="right-content" ui-view>
+
+	</div>
+	</div>
+</div>

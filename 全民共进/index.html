@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="qmgj">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index1.min.css">
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+</head>
+
+<body>
+    <header ng-controller='index1Controller' class="clear">
+        <!-- header left -->
+        <div class="header-left clear">
+            <div class="header-logo1">
+                <span class="logo-1 logo">全民</span><span class="logo-2 logo">创造</span>
+            </div>
+            <ul class="clear">
+                <li ng-repeat="x in arr1" ui-sref-active="showActive">
+                    <a ui-sref="{{x.page}}">{{x.name}}</a>
+                </li>
+            </ul>
+            <div class="mysearch ">
+                <span class=" iconfont icon-search "></span>
+                <input class="search-input" type="text" name="" placeholder="输入你想输的内容">
+            </div>
+        </div>
+      
+      <!-- header right -->
+        <div class="login">
+            <a ui-sref="login" title="">登录</a>
+            <a ui-sref="reg" title="">注册</a>
+        </div>
+    </header>
+    <div ui-view></div>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="foot-left col-lg-6">
+                <span>关于全民创造</span>
+                <span>全民创造用户协议</span>
+                <span>全民创造风险提示</span>
+                <span>联系我们</span>
+            </div>
+            <div class="foot-right col-lg-3 col-lg-offset-3">
+                <span class="logo-1 logo foot-logo1">全民</span><span class="logo-2 logo">创造</span><span>@2015</span>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="config/index1.min.js"></script>
+</body>
+
+</html>

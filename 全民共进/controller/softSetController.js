@@ -1,0 +1,14 @@
+app.controller('softSetController',['$scope',function($scope){
+   $scope.arr1=[
+     {name:'修改密码',
+     view:'user.softSet'},
+     {name:'实名认证',
+     view:'user.softSet.trueName'},
+     {name:'邮箱认证',
+     view:'user.softSet.mail'}
+   ]
+   $scope.showActive=0;
+   $scope.myfun=function(index){
+      $scope.showActive=index
+   }
+}])
