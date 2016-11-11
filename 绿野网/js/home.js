@@ -51,7 +51,7 @@ define(function(require,exports,module){
        
          $.ajax({
          	type:'get',
-         	url:'../json/index.json',
+         	url:'绿野网/json/index.json',
          	success:function(data){
 	            $('.content').html(homeHtml({data:data}));
 
