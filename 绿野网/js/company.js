@@ -31,7 +31,7 @@ define(function(require,exports,module){
          var footerHtml=_.template(_html);
           $.ajax({
          	type:'get',
-         	url:'../json/index.json',
+         	url:'绿野网/json/index.json',
          	success:function(data){
             $('.footer').html(footerHtml({data:data}));
          		
